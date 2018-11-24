@@ -19,14 +19,10 @@ A logging script for AppGameKit2.
 Default format used is: `<CurrentDate> <CurrentTime> <LOG_LEVEL> <message>`
 where
 
-	- CurrentDate
-		- is the output of function CurrentDate()
-	- CurrentTime
-		- is the output of function CurrentTime()
-	- LOG_LEVEL
-		- is the log level as string
-	- message
-		- is the given message
+	- CurrentDate - output from the function CurrentDate()
+	- CurrentTime - output from the function CurrentTime()
+	- LOG_LEVEL - log message's log level as a string
+	- message - the log message
 
 Modify function "LogMessage" to change the log format.
 
