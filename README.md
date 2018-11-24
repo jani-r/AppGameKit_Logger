@@ -1,5 +1,5 @@
 # AppGameKit_Logger
-A logging script for AppGameKit2
+A logging script for AppGameKit2.
 
 # 1. Usage
 	1. Include "logger.agc" in your project by using command #include
@@ -16,12 +16,12 @@ A logging script for AppGameKit2
 		- LogTrace(text As String)
     
 # 2. Log message format
-Default format used is: <CurrentDate()> <CurrentTime()> <LOG_LEVEL> <message>
+Default format used is: `<CurrentDate> <CurrentTime> <LOG_LEVEL> <message>`
 where
-	<CurrentDate()> is the output of function CurrentDate()
-	<CurrentTime()> is the output of function CurrentTime()
-	<LOG_LEVEL> is the log level as string
-	<message> is the given message
+	`CurrentDate` is the output of function CurrentDate()
+	`CurrentTime` is the output of function CurrentTime()
+	`LOG_LEVEL` is the log level as string
+	`message` is the given message
 	
 Modify function "LogMessage" to change the log format.
 
